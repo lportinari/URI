@@ -1,0 +1,11 @@
+import math
+
+valor1 = input().split(' ')
+valor2 = input().split(' ')
+
+x1, y1 = valor1
+x2, y2 = valor2
+
+distancia = math.sqrt(((float(x2) - float(x1))*(float(x2) - float(x1))) + ((float(y2)-float(y1)) * (float(y2)-float(y1))))
+
+print('{:.4f}'.format(distancia))
